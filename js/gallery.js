@@ -92,7 +92,6 @@ galleryContainer.addEventListener("click", (event) => {
         <img class="gallery-image" src="${imgClisk.dataset.test}">
            
     `)
-
         instance.show()
         document.addEventListener("keydown", (event) => {
 
