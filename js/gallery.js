@@ -81,7 +81,7 @@ const gallery = (images) => {
     return galleryContainer;
 };
 gallery(images);
-console.log(gallery);
+// console.log(gallery);
 
 galleryContainer.addEventListener("click", (event) => {
     event.preventDefault();

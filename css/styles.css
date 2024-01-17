@@ -1,9 +1,6 @@
 .gallery {
     display: flex;
-  
- 
     padding: 24px 156px;
-   
     justify-content: center;
     align-items: flex-start;
     gap: 24px;
@@ -16,8 +13,13 @@
     flex-shrink: 0;
 }
 
+
 .gallery li {
     width: 360px;
     height: 200px;
     list-style: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
 }
